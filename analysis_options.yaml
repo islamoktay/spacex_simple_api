@@ -1,5 +1,9 @@
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  exclude:
+    - lib/**/*.g.dart
+
 linter:
   rules:
      - camel_case_types
@@ -56,7 +60,6 @@ linter:
      - file_names
      - hash_and_equals
      - implementation_imports
-     - invariant_booleans
      - iterable_contains_unrelated_type
      - join_return_with_assignment
      - library_prefixes

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spacex_simple_api/core/constants/fonts.gen.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
+import '../constants/fonts.gen.dart';
+import 'app_colors.dart';
 
 class CustomTextStyles {
     static TextStyle boldText18 = const TextStyle(

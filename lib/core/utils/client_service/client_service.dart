@@ -3,10 +3,10 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
 import 'package:dio_smart_retry/dio_smart_retry.dart';
 import 'package:logger/logger.dart';
-import 'package:dio/adapter.dart';
 import 'package:spacex_simple_api/core/exceptions/client_exception.dart';
 
 class DioService {

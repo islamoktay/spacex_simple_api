@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
+import '../theme/app_colors.dart';
 
 class CustomScaffold extends StatelessWidget {
   const CustomScaffold({super.key, required this.body, this.appBar});

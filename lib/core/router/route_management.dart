@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:spacex_simple_api/core/router/router_path.dart';
-import 'package:spacex_simple_api/feature/home/presentation/view/home_view.dart';
-import 'package:spacex_simple_api/feature/splash/presentation/view/splash_view.dart';
+import 'router_path.dart';
+import '../../feature/home/presentation/view/home_view.dart';
+import '../../feature/splash/presentation/view/splash_view.dart';
 
 @MaterialAutoRouter(
   replaceInRouteName: 'View,Route',

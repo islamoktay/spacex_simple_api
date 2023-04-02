@@ -17,17 +17,19 @@ dependencies:
   dio_smart_retry: ^1.4.0
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
   flutter_screenutil: ^5.6.0
   flutter_svg: ^1.1.6
   freezed_annotation: ^2.2.0
   get_it: ^7.2.0
   json_annotation: ^4.7.0
   logger: ^1.1.0
+  lottie: ^2.3.1
+  palette_generator: ^0.3.3+2
 
 dev_dependencies:
   auto_route_generator: ^5.0.3
-  build_runner: ^2.3.2
+  build_runner: ^2.3.3
   flutter_launcher_icons: ^0.11.0
   flutter_lints: ^2.0.1
   flutter_test:
@@ -38,6 +40,7 @@ dev_dependencies:
 flutter_gen:
   output: lib/core/constants/
   line_length: 80
+
   integrations:
     flutter_svg: true
     lottie: true
@@ -45,6 +48,7 @@ flutter_gen:
 flutter:
   uses-material-design: true
   assets:
+    - assets/lottie/
     - assets/icons/
 
   fonts:

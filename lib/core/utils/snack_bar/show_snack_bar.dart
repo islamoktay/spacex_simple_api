@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
-import 'package:spacex_simple_api/core/theme/custom_text_styles.dart';
-import 'package:spacex_simple_api/core/utils/snack_bar/global_variable.dart';
+import '../../theme/app_colors.dart';
+import '../../theme/custom_text_styles.dart';
+import 'global_variable.dart';
 
 void customSnackBar({
   required String content,

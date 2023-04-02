@@ -8,7 +8,7 @@ void customSnackBar({
   required String content,
   Color? color,
 }) {
-  GlobalVariable.scaffoldMessengerKey.currentState!.showSnackBar(
+  GlobalVariable.scaffoldMessengerKey.currentState?.showSnackBar(
     SnackBar(
       duration: const Duration(seconds: 1),
       margin: const EdgeInsets.only(bottom: 64),

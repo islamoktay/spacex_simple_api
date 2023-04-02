@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:palette_generator/palette_generator.dart';
-import 'package:spacex_simple_api/core/constants/assets.gen.dart';
-import 'package:spacex_simple_api/feature/home/data/model/rocket_info.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/patch_image_success_body.dart';
+import '../../../../core/constants/assets.gen.dart';
+import '../../data/model/rocket_info.dart';
+import 'patch_image_success_body.dart';
 
 class PatchImageBody extends StatefulWidget {
   const PatchImageBody({

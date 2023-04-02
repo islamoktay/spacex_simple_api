@@ -1,10 +1,8 @@
-import 'dart:developer';
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/patch_image_error_body.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/patch_image_name_text_body.dart';
+import 'patch_image_error_body.dart';
+import 'patch_image_name_text_body.dart';
 
 class PatchImageSuccessBody extends StatelessWidget {
   const PatchImageSuccessBody({

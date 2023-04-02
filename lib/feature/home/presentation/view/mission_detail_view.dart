@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:spacex_simple_api/core/constants/assets.gen.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
-import 'package:spacex_simple_api/core/widgets/custom_scaffold.dart';
-import 'package:spacex_simple_api/feature/home/data/model/rocket_info.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/item_body.dart';
+import '../../../../core/constants/assets.gen.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/widgets/custom_scaffold.dart';
+import '../../data/model/rocket_info.dart';
+import '../widgets/item_body.dart';
 
 class MissionDetailView extends StatelessWidget {
   const MissionDetailView({super.key, required this.item});

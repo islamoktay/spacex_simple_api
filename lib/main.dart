@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'core/dependency_injection/di.dart' as di;
 
 import 'core/base/spacex_simple.api.dart';
+import 'core/dependency_injection/di.dart' as di;
 
 Future<void> main() async {
   await _initMethods();

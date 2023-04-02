@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../theme/app_colors.dart';
 import '../../theme/custom_text_styles.dart';
 import 'global_variable.dart';

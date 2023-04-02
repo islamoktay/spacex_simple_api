@@ -1,5 +1,5 @@
 import 'package:get_it/get_it.dart';
-import 'package:spacex_simple_api/core/utils/date_util/date_util.dart';
+import '../utils/date_util/date_util.dart';
 import '../utils/client_service/client_service.dart';
 import '../router/route_management.gr.dart';
 import '../../feature/home/data/repo_impl/home_repo_impl.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spacex_simple_api/core/dependency_injection/di.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
-import 'package:spacex_simple_api/core/theme/custom_text_styles.dart';
-import 'package:spacex_simple_api/feature/home/presentation/bloc/home_bloc.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/old_rocket_item.dart';
+import '../../../../core/dependency_injection/di.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/custom_text_styles.dart';
+import '../bloc/home_bloc.dart';
+import 'old_rocket_item.dart';
 
 class HomePageBottomSheetContent extends StatelessWidget {
   const HomePageBottomSheetContent({

@@ -1,14 +1,16 @@
 import 'dart:async';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+
 import '../../../../core/utils/snack_bar/show_snack_bar.dart';
 import '../../data/model/rocket_info.dart';
 import '../../domain/entities/home_page_state_enum.dart';
 import '../../domain/repo/home_repo.dart';
 
+part 'home_bloc.freezed.dart';
 part 'home_event.dart';
 part 'home_state.dart';
-part 'home_bloc.freezed.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   HomeBloc(this._homeRepo) : super(const _Initial()) {

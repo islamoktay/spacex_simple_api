@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spacex_simple_api/core/constants/assets.gen.dart';
-import 'package:spacex_simple_api/core/dependency_injection/di.dart';
-import 'package:spacex_simple_api/core/router/route_management.gr.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
-import 'package:spacex_simple_api/core/theme/custom_text_styles.dart';
-import 'package:spacex_simple_api/core/utils/date_util/date_util.dart';
-import 'package:spacex_simple_api/feature/home/data/model/rocket_info.dart';
+import '../../../../core/constants/assets.gen.dart';
+import '../../../../core/dependency_injection/di.dart';
+import '../../../../core/router/route_management.gr.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/custom_text_styles.dart';
+import '../../../../core/utils/date_util/date_util.dart';
+import '../../data/model/rocket_info.dart';
 
 class OldRocketItem extends StatelessWidget {
   const OldRocketItem({

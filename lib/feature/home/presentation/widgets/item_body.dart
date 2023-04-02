@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spacex_simple_api/core/dependency_injection/di.dart';
-import 'package:spacex_simple_api/core/utils/date_util/date_util.dart';
-import 'package:spacex_simple_api/feature/home/data/model/rocket_info.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/info_item.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/patch_image_body.dart';
+import '../../../../core/dependency_injection/di.dart';
+import '../../../../core/utils/date_util/date_util.dart';
+import '../../data/model/rocket_info.dart';
+import 'info_item.dart';
+import 'patch_image_body.dart';
 
 class ItemBody extends StatelessWidget {
   const ItemBody({super.key, required this.item});

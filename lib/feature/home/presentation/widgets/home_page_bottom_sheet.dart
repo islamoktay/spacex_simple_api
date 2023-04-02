@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spacex_simple_api/core/theme/app_colors.dart';
-import 'package:spacex_simple_api/feature/home/presentation/widgets/home_page_bottom_sheet_content.dart';
+import '../../../../core/theme/app_colors.dart';
+import 'home_page_bottom_sheet_content.dart';
 
 class HomePageBottomSheet extends StatelessWidget {
   const HomePageBottomSheet({

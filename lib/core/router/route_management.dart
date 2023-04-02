@@ -1,4 +1,5 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:spacex_simple_api/feature/home/presentation/view/mission_detail_view.dart';
 import 'router_path.dart';
 import '../../feature/home/presentation/view/home_view.dart';
 import '../../feature/splash/presentation/view/splash_view.dart';
@@ -13,6 +14,10 @@ import '../../feature/splash/presentation/view/splash_view.dart';
     AutoRoute(
       path: RouterPath.homeView,
       page: HomeView,
+    ),
+    AutoRoute(
+      path: RouterPath.missionDetailView,
+      page: MissionDetailView,
     ),
   ],
 )

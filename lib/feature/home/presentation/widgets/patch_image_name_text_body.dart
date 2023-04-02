@@ -26,7 +26,7 @@ class PatchImageNameTextBody extends StatelessWidget {
         child: Text(
           name,
           style: CustomTextStyles.boldText18.copyWith(
-            color: color ?? AppColors.lightBlueColor,
+            color: color ?? AppColors.blackColor,
           ),
         ),
       ),

@@ -125,7 +125,7 @@ Improves performance: By using flutter_bloc, you can reduce the number of unnece
 
 Overall, flutter_bloc is a powerful state management library that simplifies your application's architecture, makes your code more reusable, and improves your app's performance.
 
-[Here](https://pub.dev/packages/flutter_bloc) to check how to use flutter_bloc
+[Here](https://pub.dev/packages/flutter_bloc) to check how to use Flutter BLoC
 
 ## 6. Http Client
 
@@ -133,4 +133,4 @@ I used '[dio](https://pub.dev/packages/hive)' for Http Client. Here are the adva
 
 Dio is a powerful HTTP client for Dart/Flutter, which supports global configuration, interceptors, FormData, request cancellation, file uploading/downloading, timeout, and custom adapters etc.
 
-[Here](https://pub.dev/packages/dio) to check how to use dio
+[Here](https://pub.dev/packages/dio) to check how to use Dio

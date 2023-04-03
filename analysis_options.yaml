@@ -6,6 +6,7 @@ analyzer:
 
 linter:
   rules:
+     - file_names
      - camel_case_types
      - library_names
      - avoid_catches_without_on_clauses
@@ -57,7 +58,6 @@ linter:
      - empty_statements
      - eol_at_end_of_file
      - exhaustive_cases
-     - file_names
      - hash_and_equals
      - implementation_imports
      - iterable_contains_unrelated_type

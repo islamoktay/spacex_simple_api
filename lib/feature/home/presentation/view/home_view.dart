@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:spacex_simple_api/core/constants/widget_keys.dart';
 import '../../../../core/constants/assets.gen.dart';
 import '../../../../core/dependency_injection/di.dart';
 import '../bloc/home_bloc.dart';
@@ -15,13 +16,16 @@ class HomeView extends StatelessWidget {
     return WillPopScope(
       onWillPop: () async => false,
       child: CustomScaffold(
-        bottomSheet: const HomePageBottomSheet(),
+        bottomSheet: const HomePageBottomSheet(
+          key: Key(SpaceXSimpleAppKeys.bottomSheet),
+        ),
         body: BlocProvider.value(
           value: sl<HomeBloc>(),
           child: BlocBuilder<HomeBloc, HomeState>(
             builder: (context, state) {
               final item = state.rocketInfoList.first;
               return CustomScrollView(
+                key: const Key(SpaceXSimpleAppKeys.scrollView),
                 slivers: [
                   CupertinoSliverRefreshControl(
                     builder: (

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:spacex_simple_api/core/constants/widget_keys.dart';
 import '../../../../core/dependency_injection/di.dart';
 import '../../../../core/utils/date_util/date_util.dart';
 import '../../data/model/rocket_info.dart';
@@ -13,13 +14,18 @@ class ItemBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        PatchImageBody(rocketInfo: item),
+        PatchImageBody(
+          key: const Key(SpaceXSimpleAppKeys.imageBody),
+          rocketInfo: item,
+        ),
         SizedBox(height: 10.h),
         InfoItem(
+          key: const Key(SpaceXSimpleAppKeys.details),
           header: 'Details',
           content: item.details,
         ),
         InfoItem(
+          key: const Key(SpaceXSimpleAppKeys.flightNumber),
           header: 'Flight Number',
           content: item.flightNumber.toString(),
         ),

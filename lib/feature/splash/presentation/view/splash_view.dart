@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spacex_simple_api/core/constants/widget_keys.dart';
 import '../../../../core/dependency_injection/di.dart';
 import '../../../../core/router/route_management.gr.dart';
 import '../../../../core/router/router_path.dart';
@@ -13,6 +14,7 @@ class SplashView extends StatelessWidget {
     _appStartFun();
     return CustomScaffold(
       body: Center(
+        key: const Key(SpaceXSimpleAppKeys.splashAnimation),
         child: Assets.lottie.spaceshipLottie.lottie(),
       ),
     );

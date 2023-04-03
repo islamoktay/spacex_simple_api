@@ -28,7 +28,7 @@ You need to write this command line on terminal.
 
 ## 1. Description
 
-It is a simple project to show RESTful API calls. In this project; I used dio for HTTP client, flutter_bloc for state management, get_it for dependency injection, auto_route for navigating etc. I tried to follow Clean Architecture rules and best practice lint rules. I also added simple unit tests and integration tests for the project.
+It is a simple project to show RESTful API calls. In this project; I used dio for HTTP client, flutter_bloc for state management, get_it for dependency injection, auto_route for navigating etc. I tried to follow Clean Architecture design pattern and best practice lint rules. I also added simple unit tests and integration tests for the project.
 
 ## 2. Project Structure
 

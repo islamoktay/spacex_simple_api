@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:spacex_simple_api/core/exceptions/client_exception.dart';
@@ -144,6 +145,9 @@ class BaseView {
       expect(finder, findsOneWidget);
       return true;
     } on IntegrationTestIsPresentException catch (e) {
+      if (kDebugMode) {
+        print(e);
+      }
       return false;
     }
   }

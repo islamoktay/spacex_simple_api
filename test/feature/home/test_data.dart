@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 import 'package:spacex_simple_api/feature/home/data/model/rocket_info.dart';
 
 final testRocketInfoData = [

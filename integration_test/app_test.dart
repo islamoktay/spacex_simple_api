@@ -15,6 +15,7 @@ Future<void> main() async {
 }
 
 Future<void> runAppIntegrationTest() async {
+  // ignore: avoid_print
   print('Inside Integration Test');
   WidgetsFlutterBinding.ensureInitialized();
   await di.init();

@@ -23,8 +23,8 @@ You need to write this command line on terminal.
 3. You can also run the command ```./run_integration``` or you can find the process inside the script file.
 
 ### Some screenshots from project
-<img src="assets/doc/bottom_sheet.png" alt="" width="200" height="400" />
-![](assets/doc/bottom_sheet.png)
+<img src="https://raw.githubusercontent.com/islamoktay/spacex_simple_api/main/assets/doc/splash_screen.png" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/islamoktay/spacex_simple_api/main/assets/doc/home_screen.png" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/islamoktay/spacex_simple_api/main/assets/doc/bottom_sheet.png" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/islamoktay/spacex_simple_api/main/assets/doc/item_detail.png" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 1. Description
 
